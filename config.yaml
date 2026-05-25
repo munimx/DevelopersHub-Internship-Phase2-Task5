@@ -1,0 +1,56 @@
+project:
+  seed: 42
+
+data:
+  raw_path: "data/support_tickets.csv"
+  processed_path: "data/processed_support_tickets.csv"
+  id_col: "ticket_id"
+  text_col: "ticket_text"
+  label_col: "category"
+
+labels:
+  - billing
+  - refund
+  - technical_issue
+  - login_problem
+  - account_access
+  - feature_request
+  - bug_report
+  - shipping
+  - subscription
+  - general_support
+
+models:
+  zeroshot: "facebook/bart-large-mnli"
+  fewshot: "google/flan-t5-base"
+  finetune: "distilbert-base-uncased"
+
+outputs:
+  predictions_dir: "reports/predictions"
+  plots_dir: "reports/plots"
+  metrics_path: "reports/metrics.json"
+  comparison_path: "reports/comparison.csv"
+
+training:
+  test_size: 0.2
+  val_size: 0.1
+  epochs: 3
+  batch_size: 8
+  learning_rate: 2e-5
+  max_length: 192
+
+fewshot:
+  examples:
+    - ticket: "Unable to login after password reset"
+      tags: ["login_problem", "account_access"]
+    - ticket: "Charged twice for order"
+      tags: ["billing", "refund"]
+    - ticket: "App crashes when I upload a profile photo"
+      tags: ["technical_issue", "bug_report"]
+    - ticket: "Need export feature for monthly reports"
+      tags: ["feature_request"]
+    - ticket: "Where is my shipment? Tracking hasn't updated"
+      tags: ["shipping", "general_support"]
+
+inference:
+  top_k: 3
