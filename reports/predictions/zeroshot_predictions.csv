@@ -1,0 +1,31 @@
+ticket_id,ticket_text,true_label,pred_1,score_1,pred_2,score_2,pred_3,score_3
+1,Payment failed after checkout,billing,billing,0.42937910556793213,technical_issue,0.14128917455673218,login_problem,0.09018060564994812
+2,I was charged twice for my subscription,refund,subscription,0.5761567950248718,billing,0.2668582797050476,login_problem,0.03793821111321449
+3,App crashes when I try to upload a photo,technical_issue,technical_issue,0.27196428179740906,bug_report,0.17328917980194092,feature_request,0.13362739980220795
+4,Unable to login after password reset,login_problem,login_problem,0.3816467225551605,account_access,0.14336062967777252,technical_issue,0.1222059428691864
+5,Cannot access my account after email change,account_access,login_problem,0.3297143876552582,account_access,0.2598351538181305,technical_issue,0.14331352710723877
+6,Please add export to CSV for reports,feature_request,feature_request,0.17646662890911102,shipping,0.12790977954864502,subscription,0.11169490963220596
+7,The new update introduced a bug in search,bug_report,technical_issue,0.27343133091926575,bug_report,0.15860894322395325,feature_request,0.12101119756698608
+8,Where is my shipment? Tracking is stuck,shipping,shipping,0.6900628805160522,technical_issue,0.1731804460287094,bug_report,0.04668213427066803
+9,Need help canceling my subscription,subscription,subscription,0.6325456500053406,login_problem,0.0853603258728981,feature_request,0.07569466531276703
+10,How do I change my profile picture?,general_support,technical_issue,0.3497905731201172,feature_request,0.2913926839828491,login_problem,0.10309066623449326
+11,Refund still not received after two weeks,refund,refund,0.6398981809616089,feature_request,0.08834326267242432,account_access,0.0429745577275753
+12,Billing page shows an error when adding card,billing,billing,0.8826491832733154,bug_report,0.02581484243273735,technical_issue,0.02136177010834217
+13,Login page keeps spinning forever,login_problem,account_access,0.25884002447128296,technical_issue,0.2316533923149109,login_problem,0.2147139012813568
+14,My account was locked after too many attempts,account_access,login_problem,0.24428357183933258,account_access,0.20789189636707306,technical_issue,0.19095030426979065
+15,Feature to schedule reports would be great,feature_request,feature_request,0.24344632029533386,technical_issue,0.13288946449756622,bug_report,0.11374396830797195
+16,The app freezes when I open notifications,technical_issue,technical_issue,0.40326058864593506,bug_report,0.20032808184623718,feature_request,0.11677565425634384
+17,Search results are missing recent items,bug_report,technical_issue,0.24787355959415436,feature_request,0.15519317984580994,general_support,0.09987550973892212
+18,Package marked delivered but I did not receive it,shipping,shipping,0.7141692042350769,billing,0.05020808055996895,login_problem,0.043919797986745834
+19,Subscription renewal date changed without notice,subscription,subscription,0.7347434759140015,billing,0.09635546803474426,feature_request,0.03194648027420044
+20,I need help updating my address,general_support,feature_request,0.3499468266963959,technical_issue,0.23538349568843842,general_support,0.15192928910255432
+21,Payment declined but bank says it went through,billing,billing,0.22294498980045319,general_support,0.1481056958436966,account_access,0.12636364996433258
+22,Please refund the extra charge on my invoice,refund,refund,0.44123557209968567,billing,0.41885876655578613,feature_request,0.04226747900247574
+23,"Cannot reset password, login link expired",login_problem,login_problem,0.4246876537799835,technical_issue,0.22572676837444305,bug_report,0.09232509881258011
+24,Account shows wrong email and I cannot edit,account_access,technical_issue,0.25790491700172424,account_access,0.1887338012456894,login_problem,0.1777881532907486
+25,It would be helpful to have dark mode,feature_request,feature_request,0.27244341373443604,technical_issue,0.1874973475933075,account_access,0.11290605366230011
+26,App crashes on startup after latest update,technical_issue,technical_issue,0.29532575607299805,bug_report,0.18224412202835083,general_support,0.10221000760793686
+27,Report downloads fail with a server error,bug_report,technical_issue,0.540762186050415,feature_request,0.0882209986448288,refund,0.08333656936883926
+28,Shipping label created but no movement in transit,shipping,shipping,0.6502071619033813,billing,0.10459720343351364,technical_issue,0.04927663132548332
+29,How do I pause my subscription for a month?,subscription,subscription,0.6114881634712219,feature_request,0.08285349607467651,billing,0.06463047116994858
+30,Need assistance with general account settings,general_support,general_support,0.3423013687133789,technical_issue,0.24068216979503632,feature_request,0.12225214391946793

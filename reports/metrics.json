@@ -1,0 +1,23 @@
+{
+  "zero_shot": {
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.6131168831168831,
+    "precision": 0.6375,
+    "recall": 0.6666666666666666,
+    "top3_accuracy": 0.8666666666666667
+  },
+  "few_shot": {
+    "accuracy": 0.7666666666666667,
+    "macro_f1": 0.729047619047619,
+    "precision": 0.775,
+    "recall": 0.7666666666666666,
+    "top3_accuracy": 0.9
+  },
+  "fine_tuned": {
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "top3_accuracy": 0.0
+  }
+}

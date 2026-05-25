@@ -1,0 +1,8 @@
+ticket_id,ticket_text,true_label,pred_1,score_1,pred_2,score_2,pred_3,score_3
+24,Account shows wrong email and I cannot edit,account_access,general_support,0.1113554835319519,login_problem,0.10943994671106339,shipping,0.1054915338754654
+26,App crashes on startup after latest update,technical_issue,general_support,0.11385922878980637,shipping,0.10686326771974564,login_problem,0.10572953522205353
+2,I was charged twice for my subscription,refund,general_support,0.11043202131986618,login_problem,0.10938010364770889,shipping,0.10609155893325806
+29,How do I pause my subscription for a month?,subscription,general_support,0.11058470606803894,login_problem,0.10976242274045944,shipping,0.10651964694261551
+21,Payment declined but bank says it went through,billing,shipping,0.11024061590433121,general_support,0.10841049253940582,login_problem,0.1063661053776741
+25,It would be helpful to have dark mode,feature_request,shipping,0.11084697395563126,login_problem,0.10952087491750717,general_support,0.10826501995325089
+27,Report downloads fail with a server error,bug_report,general_support,0.11355143785476685,login_problem,0.10851982980966568,shipping,0.1053059920668602

@@ -1,0 +1,26 @@
+{
+  "label_to_id": {
+    "billing": 0,
+    "refund": 1,
+    "technical_issue": 2,
+    "login_problem": 3,
+    "account_access": 4,
+    "feature_request": 5,
+    "bug_report": 6,
+    "shipping": 7,
+    "subscription": 8,
+    "general_support": 9
+  },
+  "id_to_label": {
+    "0": "billing",
+    "1": "refund",
+    "2": "technical_issue",
+    "3": "login_problem",
+    "4": "account_access",
+    "5": "feature_request",
+    "6": "bug_report",
+    "7": "shipping",
+    "8": "subscription",
+    "9": "general_support"
+  }
+}
